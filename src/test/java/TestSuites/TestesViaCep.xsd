@@ -1,0 +1,9 @@
+<suite name="TestesViaCep" verbose="1">
+    <test name="requisicoesCep">
+        <packages>
+            <package name="TestCases.CepValido"/>
+            <package name="TestCases.CepInexistente"/>
+            <package name="TestCases.CepFormatoInvalido"/>
+        </packages>
+    </test>
+</suite>
