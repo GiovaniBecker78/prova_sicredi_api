@@ -1,10 +1,10 @@
 ### prova_sicredi_api
 ---
 #### Tecnologias
-- Java (ver xxx)
-- Maven (ver xxx)
-- TestNG (ver xxx)
-- Rest Assured (ver xxx)
-- Java Faker  (ver xxx)
+- Java 8
+- Maven
+- TestNG 7.4.0
+- Rest Assured 4.4.0
+- Java Faker  1.0.2
 
 

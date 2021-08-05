@@ -15,13 +15,13 @@ public class CepValido extends BaseTestCepValido {
 
         given()
                 .spec(requestSpec)
-                .log().all()
+                //.log().all()
         .when()
                 .get()
 
         .then()
                 .spec(responseSpec)
-                .log().all()
+                .log().body()
                 .extract().response()
         ;
 
