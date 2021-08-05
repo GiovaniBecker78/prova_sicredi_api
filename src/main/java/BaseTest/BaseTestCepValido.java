@@ -14,8 +14,7 @@ public class BaseTestCepValido extends BaseUrl {
     protected static RequestSpecification requestSpec;
     protected static ResponseSpecification responseSpec;
     private static final String responseFormat = "json";
-    private static Map<String, Object> objeto = new HashMap<>();
-    private static String cep;
+
 
     @BeforeClass
     public static void setUp(){
@@ -29,7 +28,7 @@ public class BaseTestCepValido extends BaseUrl {
 
         requestSpec = new RequestSpecBuilder()
                 .setBaseUri(BASE_URL)
-                .setBasePath("ws/" + cep + "/" + responseFormat + "/")
+                .setBasePath("ws/91060900/" + responseFormat + "/")
                 .build();
     }
 
@@ -40,7 +39,7 @@ public class BaseTestCepValido extends BaseUrl {
                 .build();
     }
 
-    
+
 
 
 }
